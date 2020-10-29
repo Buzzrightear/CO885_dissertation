@@ -23,5 +23,5 @@ print(train_labels.head())
 val_features = df.drop(['Power avg'], axis = 1).tail(split_point) #Get rid of the 'Power avg' columns inc. column heading and keep all rows after split_point
 print(val_features.head())
 
-val_labels = df['Power avg'].tail(split_point) #Just show 'Power avg' column without col heading ater split-point
+val_labels = df['Power avg'].tail(split_point) #Just show 'Power avg' column without col heading after split-point
 print(val_labels.head())
