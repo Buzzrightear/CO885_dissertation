@@ -3,7 +3,7 @@
 
 This is the repo for my MSc project
 
-> This will contain all code for the entire project
+> Contains all code for the project
 
 - RNN
 - CNN
